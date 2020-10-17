@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Qt Assistant
+Comment=Shows Qt documentation and examples
+Comment[vi]=Hiển thị tài liệu và ví dụ về Qt
+GenericName[vi]=Tài liệu và ví dụ về Qt
+Exec=assistant
+Icon=assistant
+Terminal=false
+Type=Application
+Categories=Qt;Development;Documentation;

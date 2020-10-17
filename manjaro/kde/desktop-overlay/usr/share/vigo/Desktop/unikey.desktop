@@ -1,0 +1,26 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utilities;System;
+Comment[vi_VN]=
+Comment=
+Exec=ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3 
+GenericName[vi_VN]=Unikey
+GenericName=Unikey
+GenericName[en]=Unikey
+Icon=/usr/share/vigo/UniKey.png
+InitialPreference=5
+MimeType=Unikey
+Name[vi_VN]=Unikey
+Name=Unikey
+Path=/usr/share/vigo/
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-GIO-NoFuse=true
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

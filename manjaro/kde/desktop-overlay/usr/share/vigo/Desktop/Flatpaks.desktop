@@ -1,0 +1,5 @@
+[Desktop Entry]
+Icon=/usr/share/vigo/Flatpaks.png
+Name=Kho ứng dụng Flatpaks
+Type=Link
+URL[$e]=https://discover.manjaro.org/flatpaks/

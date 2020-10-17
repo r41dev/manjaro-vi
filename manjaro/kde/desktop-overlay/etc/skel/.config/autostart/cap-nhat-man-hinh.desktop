@@ -1,0 +1,26 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utilities;System;
+Comment[vi_VN]=Cập nhật ngôn ngữ
+Comment=Cập nhật ngôn ngữ
+Exec=/usr/share/vigo/man-hinh.sh
+GenericName[vi_VN]=Cập nhật ngôn ngữ
+GenericName=Cập nhật ngôn ngữ
+GenericName[en]=Unikey
+Icon=/usr/share/vigo/vigo-menu.png
+InitialPreference=5
+MimeType=Cập nhật ngôn ngữ
+Name[vi_VN]=Cập nhật ngôn ngữ
+Name=Cập nhật ngôn ngữ
+Path=/usr/share/vigo/
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-GIO-NoFuse=true
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -52,13 +52,13 @@
 ################# live-session #################
 
 # unset defaults to given value
-# hostname="manjaro"
+hostname="vigo"
 
 # unset defaults to given value
-# username="manjaro"
+username="vigo"
 
 # unset defaults to given value
-# password="manjaro"
+password="vigo"
 
 # unset defaults to given values
 # names must match systemd service names

@@ -225,9 +225,9 @@ htop
 inxi
 #>extra krita
 #ms-office-online
-#>extra freeoffice
-#>extra libreoffice-still
-manjaro-hello
+>extra freeoffice
+>extra libreoffice-still
+#manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
@@ -248,7 +248,7 @@ yakuake
 #>extra jdk8-openjdk
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-kde-settings
@@ -290,3 +290,15 @@ manjaro-hotfixes
 ## Flatpak support
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
+
+## Vigo
+gtk2
+python2
+ibus
+python2-dbus
+python2-gobject
+python2-gobject2
+ibus-unikey
+libreoffice-still-vi
+firefox-i18n-vi
+thunderbird-i18n-vi

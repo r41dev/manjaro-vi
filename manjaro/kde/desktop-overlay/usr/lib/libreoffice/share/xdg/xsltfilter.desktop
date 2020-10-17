@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Exec=libreoffice %U
+MimeType=application/vnd.oasis.opendocument.text-flat-xml;application/vnd.oasis.opendocument.spreadsheet-flat-xml;application/vnd.oasis.opendocument.graphics-flat-xml;application/vnd.oasis.opendocument.presentation-flat-xml;
+Name=Bộ lọc dựa trên XSLT
+Name[vi]=Bộ lọc dựa trên XSLT
+GenericName=Bộ lọc dựa trên XSLT
+GenericName[vi]=Bộ lọc dựa trên XSLT
+NoDisplay=true
+StartupNotify=true
+X-GIO-NoFuse=true
+X-KDE-Protocols=file,http,ftp,webdav,webdavs
