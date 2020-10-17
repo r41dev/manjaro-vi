@@ -5,7 +5,7 @@ cd $(dirname "$BASH_SOURCE")
 if [[ ! -d /usr/share/locale/vi ]]; then
   echo "Tải bản ngôn ngữ tiếng Việt để cài đặt ..."
   if [[ -f "$(pwd)/manjaro-vi.tar.gz" ]]; then
-    cp "$(pwd)/manjaro-vi.tar.gz" /tmp/manjaro-vi.tar.gz
+    mv "$(pwd)/manjaro-vi.tar.gz" /tmp/manjaro-vi.tar.gz
   else
     curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
   fi
@@ -13,6 +13,7 @@ if [[ ! -d /usr/share/locale/vi ]]; then
   cd $temp && tar xzf /tmp/manjaro-vi.tar.gz
   chown root:root * -Rf
   cp -a * /
+  rm -rf $temp
 fi
 
 LOCALE_VI="vi_VN"
