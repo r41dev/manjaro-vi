@@ -1,9 +1,8 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
-Categories=Utilities;System;
+Categories=Qt;Utilities;System;
 Comment[vi_VN]=Cài đặt hệ điều hành
 Comment=Cài đặt hệ điều hành
-Exec=/usr/bin/calamares_polkit
+Exec=/usr/bin/calamares_polkit %f
 GenericName[vi_VN]=Cài đặt hệ điều hành
 GenericName=Cài đặt hệ điều hành
 GenericName[en]=Cài đặt hệ điều hành
@@ -14,12 +13,5 @@ Name[vi_VN]=Cài đặt hệ điều hành
 Name=Cài đặt hệ điều hành
 StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
 Version=1.0
-X-DBUS-ServiceName=
-X-DBUS-StartupType=
-X-GIO-NoFuse=true
-X-KDE-RunOnDiscreteGpu=false
-X-KDE-SubstituteUID=false
-X-KDE-Username=
