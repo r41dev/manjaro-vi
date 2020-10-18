@@ -47,4 +47,5 @@ echo "Có thể phải khởi động lại máy tính ..."
 echo " "
 echo "Nhấn Enter để khởi động lại"
 read
-qdbus org.kde.ksmserver /KSMServer logout 0 3 3
+#qdbus org.kde.ksmserver /KSMServer logout 0 3 3
+systemctl restart sddm
