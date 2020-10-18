@@ -1,5 +1,11 @@
 #!/bin/bash
 
+LIVEOS=0
+if [[ -f ~/Desktop/vigo-installer.desktop ]]; then
+  LIVEOS=1
+  exit
+fi
+
 MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
 cd $(dirname "$BASH_SOURCE")
 if [[ ! -d /usr/share/locale/vi ]]; then
@@ -42,6 +48,8 @@ EOF
 localectl set-locale LANG="$LOCALE_VI.UTF-8"
 #clear
 echo "Cập nhật ngôn ngữ tiếng Việt ... xong"
+
+rm -rf ~/.config/autostart/cap-nhat.desktop
 
 echo "Có thể phải khởi động lại máy tính ..."
 echo " "
