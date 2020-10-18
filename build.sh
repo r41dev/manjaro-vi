@@ -24,7 +24,8 @@ else
   else
     #pacman -S --noconfirm sudo
     #sudo rm -rf /var/lib/manjaro-tools/buildiso/*
-    DATADIR="$(pwd)" buildiso -p kde -a x86_64 -f -k linux54
+    echo "run_dir=$(pwd)" > ~/.config/manjaro-tools/iso-profiles.conf
+    buildiso -p kde -a x86_64 -f -k linux54
   fi
 fi
 
