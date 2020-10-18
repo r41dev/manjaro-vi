@@ -22,8 +22,8 @@ else
   if [[ $? -gt 0 ]]; then
     build_in_docker $@
   else
-    pacman -S --noconfirm sudo
-    sudo rm -rf /var/lib/manjaro-tools/buildiso/*
+    #pacman -S --noconfirm sudo
+    #sudo rm -rf /var/lib/manjaro-tools/buildiso/*
     DATADIR="$(pwd)" buildiso -p kde -a x86_64 -f -k linux54
   fi
 fi
