@@ -13,5 +13,7 @@ if [[ -f ~/Desktop/vigo-installer.desktop ]]; then
 fi
 
 if [[ LIVEOS -gt 0 ]]; then
+  sudo localectl set-locale LANG=vi_VN.UTF-8
+  export LANG=vi_VN.UTF-8
   /usr/bin/calamares_polkit
 fi
