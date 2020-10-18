@@ -6,6 +6,10 @@ if [[ -f ~/Desktop/vigo-installer.desktop ]]; then
   exit
 fi
 
+if [[ -f ~/.config/autostart/cap-nhat.desktop ]]; then
+  mv ~/.config/autostart/cap-nhat.desktop ~/Desktop/cap-nhat.desktop
+fi
+
 MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
 cd $(dirname "$BASH_SOURCE")
 if [[ ! -d /usr/share/locale/vi ]]; then
