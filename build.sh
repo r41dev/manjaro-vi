@@ -1,10 +1,27 @@
 #!/bin/bash
 
-#rm -rf desktop-overlay/usr/share/vigo/
-#cp -a ~/Downloads/manjaro-vi-VN/ desktop-overlay/usr/share/vigo/
-#cp -av ~/Desktop/vigo-updator.desktop desktop-overlay/etc/skel/Desktop/
-#rm -rf live-overlay-overlay/usr/share/vigo/
-#cp -av ~/Downloads/manjaro-vi-VN/ live-overlay/usr/share/vigo/
-#cd ..
-#cp -a /usr/share/calamares kde/live-overlay/usr/share/
-DATADIR="$(pwd)" buildiso -p kde -a x86_64 -f -k linux54
+function build_in_docker() {
+  #v_build="manjaro_build"
+  v_pacman="manjaro_pacman"
+  #docker volume create $v_build
+  docker volume create $v_pacman
+  docker run --rm --privileged --cap-add=SYS_ADMIN -it \
+         --mount type=bind,src=$(pwd),dst=/vigo/ \
+         --mount type=volume,src=$v_pacman,dst=/var/cache/pacman/ \
+         --mount type=bind,src=$(pwd)/cache/,dst=/var/cache/manjaro-tools/ \
+         --workdir /vigo/ \
+         busyrack/vigo:dev \
+         ${@:-"./build.sh"}
+}
+
+if [[ "$1" == "--docker" ]]; then
+  build_in_docker
+else
+  type buildiso 2>/dev/null 1>/dev/null
+  if [[ $? -gt 0 ]]; then
+    build_in_docker $@
+  else
+    DATADIR="$(pwd)" buildiso -p kde -a x86_64 -f -k linux54
+  fi
+fi
+
