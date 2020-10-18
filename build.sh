@@ -24,7 +24,7 @@ else
   else
     #pacman -S --noconfirm sudo
     #sudo rm -rf /var/lib/manjaro-tools/buildiso/*
-    echo "run_dir=$(pwd)" > ~/.config/manjaro-tools/iso-profiles.conf
+    echo "run_dir=$(pwd)/iso-profiles" > ~/.config/manjaro-tools/iso-profiles.conf
     buildiso -p kde -a x86_64 -f -k linux54
   fi
 fi
