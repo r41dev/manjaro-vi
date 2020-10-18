@@ -6,3 +6,4 @@ community/lxqt-wip
 *.sig
 /blackbox/
 /pacbang-linux/
+cache
