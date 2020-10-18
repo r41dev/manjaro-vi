@@ -1,13 +1,13 @@
 #!/bin/bash
 
 LIVEOS=0
-if [[ -f ~/Desktop/vigo-installer.desktop ]]; then
+if [[ -f ./Desktop/vigo-installer.desktop ]]; then
   LIVEOS=1
   exit
 fi
 
-if [[ -f ~/.config/autostart/cap-nhat.desktop ]]; then
-  mv ~/.config/autostart/cap-nhat.desktop ~/Desktop/cap-nhat.desktop
+if [[ -f ./.config/autostart/cap-nhat.desktop ]]; then
+  mv ./.config/autostart/cap-nhat.desktop ./Desktop/cap-nhat.desktop
 fi
 
 MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
