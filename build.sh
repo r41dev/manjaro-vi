@@ -11,6 +11,7 @@ function build_in_docker() {
          --mount type=volume,src=$v_pacman,dst=/var/cache/pacman/ \
          --mount type=bind,src=$(pwd)/cache/,dst=/var/cache/manjaro-tools/ \
          --workdir /vigo/ \
+         -e IN_DOCKER=true \
          busyrack/vigo:dev \
          ${@:-"./build.sh"}
 }
@@ -22,8 +23,9 @@ else
   if [[ $? -gt 0 ]]; then
     build_in_docker $@
   else
-    #pacman -S --noconfirm sudo
-    #sudo rm -rf /var/lib/manjaro-tools/buildiso/*
+    if [[ "X$IN_DOCKER" == "Xtrue" ]]; then
+      rm -rf /var/lib/manjaro-tools/buildiso/*
+    fi
     echo "run_dir=$(pwd)/iso-profiles" > ~/.config/manjaro-tools/iso-profiles.conf
     buildiso -p kde -a x86_64 -f -k linux54
   fi
