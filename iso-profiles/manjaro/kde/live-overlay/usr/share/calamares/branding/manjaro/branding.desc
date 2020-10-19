@@ -27,7 +27,7 @@ windowExpanding:    noexpand
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 820px,540px
+windowSize: 800px,500px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -38,6 +38,8 @@ windowPlacement: center
 # These are strings shown to the user in the user interface.
 # There is no provision for translating them -- since they
 # are names, the string is included as-is.
+# This selects between different welcome texts. When false, uses
+# the traditional "Welcome to the %1 installer.", and when true,
 #
 # The four Url strings are the Urls used by the buttons in
 # the welcome screen, and are not shown to the user. Clicking
@@ -70,8 +72,8 @@ strings:
 #       the window. Use `welcomeExpandingLogo` to make it non-scaled.
 #       Recommended size is 320x150.
 images:
-    productLogo:         "logo.png"
-    productIcon:         "logo.png"
+    productLogo:         "logo1.png"
+    productIcon:         "logo2.png"
     productWelcome:      "languages.png"
 
 # The slideshow is displayed during execution steps (e.g. when the
@@ -100,7 +102,7 @@ slideshowAPI: 1
 #  - sidebarSelect is the text color of the selected step.
 #
 style:
-   sidebarBackground:    "#454948"
+   sidebarBackground:    "#8a4b08"
    sidebarText:          "#efefef"
    sidebarTextSelect:    "#4d915e"
    sidebarTextHighlight: "#1a1c1b"
