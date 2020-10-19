@@ -13,8 +13,10 @@ if [[ -f ~/Desktop/vigo-installer.desktop ]]; then
 fi
 
 if [[ LIVEOS -gt 0 ]]; then
-  sudo cp -a -f /usr/share/vigo/calamares /etc/
+  sudo cp -a -f /usr/share/vigo/calamares/settings.conf /etc/calamares/
+  sudo cp -a -f /usr/share/vigo/calamares/modules /etc/calamares/
   sudo cp -a -f /usr/share/vigo/calamares/lang /usr/share/calamares
+  sudo cp -a -f /usr/share/vigo/calamares/branding /usr/share/calamares
   sudo localectl set-locale LANG=vi_VN.UTF-8
   export LANG=vi_VN.UTF-8
   sudo -E /usr/bin/calamares -T
