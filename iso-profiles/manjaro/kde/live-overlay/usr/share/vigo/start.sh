@@ -14,7 +14,8 @@ fi
 
 if [[ LIVEOS -gt 0 ]]; then
   sudo cp -a -f /usr/share/vigo/calamares /etc/
+  sudo cp -a -f /usr/share/vigo/calamares /usr/share/
   sudo localectl set-locale LANG=vi_VN.UTF-8
   export LANG=vi_VN.UTF-8
-  /usr/bin/calamares_polkit
+  sudo -E /usr/bin/calamares -T
 fi
