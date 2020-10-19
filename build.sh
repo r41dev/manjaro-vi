@@ -25,7 +25,7 @@ else
     if [[ "X$IN_DOCKER" == "Xtrue" ]]; then
       rm -rf /var/lib/manjaro-tools/buildiso/*
     else
-      rm -rf /var/lib/manjaro-tools/buildiso/*
+      sudo rm -rf /var/lib/manjaro-tools/buildiso/*
     fi
     echo "run_dir=$(pwd)/iso-profiles" > ~/.config/manjaro-tools/iso-profiles.conf
     buildiso -p kde -a x86_64 -f -k linux54
