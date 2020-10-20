@@ -102,7 +102,7 @@ slideshowAPI: 1
 #  - sidebarSelect is the text color of the selected step.
 #
 style:
-   sidebarBackground:    "#088a29"
+   sidebarBackground:    "#009927"
    sidebarText:          "#efefef"
    sidebarTextSelect:    "#4d915e"
-   sidebarTextHighlight: "#1a1c1b"
+   sidebarTextHighlight: "#006c1b"
