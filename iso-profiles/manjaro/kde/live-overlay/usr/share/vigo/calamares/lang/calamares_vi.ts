@@ -2337,7 +2337,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/users/page_usersetup.ui" line="124"/>
         <source>What name do you want to use to log in?</source>
-        <translation type="unfinished">Bạn sẽ fungf tên nào để đăng nhập vào máy tính?</translation>
+        <translation type="unfinished">Bạn sẽ dùng tên nào để đăng nhập vào máy tính?</translation>
     </message>
     <message>
         <location filename="../src/modules/users/page_usersetup.ui" line="148"/>
