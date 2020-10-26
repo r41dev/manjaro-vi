@@ -1,30 +1,31 @@
 #!/bin/bash
 
-LIVEOS=0
-if [[ -f ./Desktop/vigo-installer.desktop ]]; then
-  LIVEOS=1
-  exit
-fi
+#LIVEOS=0
+#if [[ -f ./Desktop/vigo-installer.desktop ]]; then
+#  LIVEOS=1
+#  exit
+#fi
 
-if [[ -f ./.config/autostart/cap-nhat.desktop ]]; then
-  mv ./.config/autostart/cap-nhat.desktop ./Desktop/cap-nhat.desktop
-fi
+#if [[ -f ./.config/autostart/cap-nhat.desktop ]]; then
+#  mv ./.config/autostart/cap-nhat.desktop ./Desktop/cap-nhat.desktop
+#fi
 
 MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
-cd $(dirname "$BASH_SOURCE")
-if [[ ! -d /usr/share/locale/vi ]]; then
-  echo "Tải bản ngôn ngữ tiếng Việt để cài đặt ..."
-  if [[ -f "$(pwd)/manjaro-vi.tar.gz" ]]; then
-    mv "$(pwd)/manjaro-vi.tar.gz" /tmp/manjaro-vi.tar.gz
-  else
+#cd $(dirname "$BASH_SOURCE")
+#if [[ ! -d /usr/share/locale/vi ]]; then
+#  echo "Tải bản ngôn ngữ tiếng Việt để cài đặt ..."
+#  if [[ -f "$(pwd)/manjaro-vi.tar.gz" ]]; then
+#    mv "$(pwd)/manjaro-vi.tar.gz" /tmp/manjaro-vi.tar.gz
+# else
     curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
-  fi
-  temp=$(mktemp -d)
-  cd $temp && tar xzf /tmp/manjaro-vi.tar.gz
-  chown root:root * -Rf
-  cp -a * /
-  rm -rf $temp
-fi
+#  fi
+#  temp=$(mktemp -d)
+  cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz
+#  chown root:root * -Rf
+  rm -rf /usr/share/locale/vi
+  cp -av /tmp/usr /
+  rm -rf /tmp/manjaro-vi.tar.gz /tmp/usr
+#fi
 
 LOCALE_VI="vi_VN"
 
@@ -50,10 +51,10 @@ LC_TIME=vi_VN.UTF-8
 EOF
 
 localectl set-locale LANG="$LOCALE_VI.UTF-8"
-#clear
+clear
 echo "Cập nhật ngôn ngữ tiếng Việt ... xong"
 
-rm -rf ~/.config/autostart/cap-nhat.desktop
+#rm -rf ~/.config/autostart/cap-nhat.desktop
 
 echo "Có thể phải khởi động lại máy tính ..."
 echo " "
