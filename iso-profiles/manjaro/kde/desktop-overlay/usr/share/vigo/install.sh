@@ -20,6 +20,8 @@ MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.g
     curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
 #  fi
 #  temp=$(mktemp -d)
+pacman-mirrors --country Hong_Kong
+pacman -Suy
   cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz
 #  chown root:root * -Rf
   rm -rf /usr/share/locale/vi
