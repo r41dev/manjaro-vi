@@ -1,0 +1,62 @@
+#!/bin/sh
+
+#This is a script to unregister resource before the FoxitReader was uninstalled.
+
+uninstall_icon()
+{
+    xdg-icon-resource uninstall "$@" >/dev/null 2>&1
+}
+
+uninstall_desktop_menu()
+{
+    xdg-desktop-menu uninstall "$@" >/dev/null 2>&1
+}
+
+uninstall_desktop_icon()
+{
+    xdg-desktop-icon uninstall "$@" >/dev/null 2>&1
+}
+
+uninstall_mime()
+{
+    xdg-mime uninstall "$@" >/dev/null 2>&1
+}
+
+#it seemly does't work.
+unset_mime()
+{
+    for i in application/pdf application/ppdf application/xfdf application/fdf; do
+        xdg-mime unset "$@" "${i}"
+    done
+}
+
+UnInstallIcons()
+{
+    install_dir="$1/resource/icons"
+
+    for icon_size in 16 24 32 48 64 128; do
+        uninstall_icon --novendor --context apps --size $icon_size "$install_dir/${icon_size}x${icon_size}/FoxitReader.png"
+    done
+}
+
+UnInstallReader()
+{
+    ReaderInstallDir=$1
+    touch /tmp/$ReaderInstallDir
+    UnInstallIcons "$ReadInstallDir"
+    uninstall_desktop_menu --novendor "$ReaderInstallDir/FoxitReader.desktop"
+    uninstall_desktop_icon --novendor "$ReaderInstallDir/FoxitReader.desktop"
+    uninstall_mime --novendor "$ReaderInstallDir/resource/mime/FoxitReader.xml"
+    xdg-icon-resource forceupdate >/dev/null 2>&1
+}
+
+case "$1" in
+    uninstall)
+        echo "Execute postinst scripts"
+        UnInstallReader $2
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 0
+esac

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+
+  <mime-type type="application/pdf">
+    <comment>FoxitReader Document</comment>
+    <glob pattern="*.pdf"/>
+  </mime-type>
+
+  <mime-type type="application/ppdf">
+    <comment>FoxitReader Document</comment>
+    <glob pattern="*.ppdf"/>
+  </mime-type>
+
+</mime-info>

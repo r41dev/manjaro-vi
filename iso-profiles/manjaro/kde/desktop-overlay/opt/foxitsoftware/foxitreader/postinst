@@ -1,0 +1,58 @@
+#!/bin/sh
+
+#This is a script to register resource after the FoxitReader was installed.
+
+install_icon()
+{
+    xdg-icon-resource install "$@" >/dev/null 2>&1
+}
+
+install_desktop_menu()
+{
+    xdg-desktop-menu uninstall "$@" >/dev/null 2>&1
+    xdg-desktop-menu install "$@" >/dev/null 2>&1
+}
+
+install_desktop_icon()
+{
+    xdg-desktop-icon uninstall "$@" >/dev/null 2>&1
+    xdg-desktop-icon install "$@" >/dev/null 2>&1 && chmod 777 "$HOME/Desktop/FoxitReader.desktop" 2>/dev/null
+}
+
+install_mime()
+{
+    xdg-mime install "$@" >/dev/null 2>&1
+}
+
+InstallIcons()
+{
+    install_dir="$1/resource/icons"
+
+    for icon_size in 16 24 32 48 64 128; do
+        install_icon --noupdate --novendor --context apps --size $icon_size "$install_dir/${icon_size}x${icon_size}/FoxitReader.png"
+    done
+}
+
+case "$1" in
+    configure)
+        ReaderInstallDir=$2 #put this file to install directory
+        InstallIcons "$ReaderInstallDir"
+        install_mime --novendor "$ReaderInstallDir/resource/mime/FoxitReader.xml"
+
+        for i in application/pdf application/ppdf application/xfdf application/fdf; do
+            xdg-mime default "FoxitReader.desktop" "$i" >/dev/null 2>&1
+        done
+
+        # set Exec for FoxitReader.desktop
+        echo "Exec=$ReaderInstallDir/FoxitReader.sh %F" >> "$ReaderInstallDir/FoxitReader.desktop"
+        install_desktop_menu --novendor "$ReaderInstallDir/FoxitReader.desktop"
+
+        install_desktop_icon --novendor "$ReaderInstallDir/FoxitReader.desktop"
+        xdg-icon-resource forceupdate >/dev/null 2>&1
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 0
+    ;;
+esac

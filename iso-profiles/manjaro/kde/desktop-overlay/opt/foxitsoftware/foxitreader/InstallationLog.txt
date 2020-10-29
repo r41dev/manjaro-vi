@@ -1,0 +1,174 @@
+************************************* Invoked: Th 5 thg 10 29 14:04:32 2020
+[0] Warning: Could not create lock file '/home/vigo/Bản tải về/lockmyApp1234865.lock': Không có tập tin hoặc thư mục như vậy
+[4] Arguments:  /home/vigo/Bản tải về/FoxitReader.enu.setup.2.4.4.0911(r057d814).x64.run
+[4] Operations sanity check succeeded.
+[64] Loaded control script ":/metadata/installer-config/control_qs.qs"
+[64] Using control script: ":/metadata/installer-config/control_qs.qs"
+[70] SHOW FINISHED PAGE
+[105] Control script callback "DynamicTargetWidgetCallback" does not exist.
+[4674] Control script callback "DynamicLicenseWidgetCallback" does not exist.
+[10515] Control script callback "PerformInstallationPageCallback" does not exist.
+[10545] perform  operation: Mkdir
+[10545] \t- arguments: /home/vigo/opt/foxitsoftware
+[10545] Done
+[10546] backup  operation: Mkdir
+[10546] \t- arguments: /home/vigo/opt/foxitsoftware/foxitreader
+[10546] Done
+[10546] perform  operation: Mkdir
+[10546] \t- arguments: /home/vigo/opt/foxitsoftware/foxitreader
+[10546] Done
+[10546] Install size: 1 components
+[10604] backup Install Foxit Reader operation: Execute
+[10604] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/lib, UNDOEXECUTE
+[10604] Done
+[10604] perform Install Foxit Reader operation: Execute
+[10604] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/lib, UNDOEXECUTE
+[10605] rm" started, arguments: "-rf /home/vigo/opt/foxitsoftware/foxitreader/lib
+[10606] Done
+[10606] backup Install Foxit Reader operation: Execute
+[10606] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/fxplugins, UNDOEXECUTE
+[10606] Done
+[10606] perform Install Foxit Reader operation: Execute
+[10606] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/fxplugins, UNDOEXECUTE
+[10606] rm" started, arguments: "-rf /home/vigo/opt/foxitsoftware/foxitreader/fxplugins
+[10607] Done
+[10607] backup Install Foxit Reader operation: Execute
+[10607] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/javascripts, UNDOEXECUTE
+[10607] Done
+[10607] perform Install Foxit Reader operation: Execute
+[10607] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/javascripts, UNDOEXECUTE
+[10608] rm" started, arguments: "-rf /home/vigo/opt/foxitsoftware/foxitreader/javascripts
+[10609] Done
+[10609] backup Install Foxit Reader operation: Extract
+[10609] \t- arguments: installer://Install Foxit Reader/1.1.0content.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[10609] Done
+[10609] perform Install Foxit Reader operation: Extract
+[10609] \t- arguments: installer://Install Foxit Reader/1.1.0content.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12090] Done
+[12090] backup Install Foxit Reader operation: Extract
+[12090] \t- arguments: installer://Install Foxit Reader/1.1.0fxplugins.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12090] Done
+[12090] perform Install Foxit Reader operation: Extract
+[12090] \t- arguments: installer://Install Foxit Reader/1.1.0fxplugins.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12320] Done
+[12320] backup Install Foxit Reader operation: Extract
+[12320] \t- arguments: installer://Install Foxit Reader/1.1.0imageformats.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12320] Done
+[12320] perform Install Foxit Reader operation: Extract
+[12320] \t- arguments: installer://Install Foxit Reader/1.1.0imageformats.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12327] Done
+[12327] backup Install Foxit Reader operation: Extract
+[12327] \t- arguments: installer://Install Foxit Reader/1.1.0images.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12327] Done
+[12327] perform Install Foxit Reader operation: Extract
+[12327] \t- arguments: installer://Install Foxit Reader/1.1.0images.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12333] Done
+[12333] backup Install Foxit Reader operation: Extract
+[12333] \t- arguments: installer://Install Foxit Reader/1.1.0lang.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12333] Done
+[12333] perform Install Foxit Reader operation: Extract
+[12333] \t- arguments: installer://Install Foxit Reader/1.1.0lang.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12343] Done
+[12343] backup Install Foxit Reader operation: Extract
+[12343] \t- arguments: installer://Install Foxit Reader/1.1.0lib.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[12343] Done
+[12344] perform Install Foxit Reader operation: Extract
+[12344] \t- arguments: installer://Install Foxit Reader/1.1.0lib.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14472] Done
+[14472] backup Install Foxit Reader operation: Extract
+[14472] \t- arguments: installer://Install Foxit Reader/1.1.0platforminputcontexts.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14472] Done
+[14472] perform Install Foxit Reader operation: Extract
+[14472] \t- arguments: installer://Install Foxit Reader/1.1.0platforminputcontexts.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14479] Done
+[14479] backup Install Foxit Reader operation: Extract
+[14479] \t- arguments: installer://Install Foxit Reader/1.1.0platforms.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14479] Done
+[14479] perform Install Foxit Reader operation: Extract
+[14479] \t- arguments: installer://Install Foxit Reader/1.1.0platforms.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14514] Done
+[14514] backup Install Foxit Reader operation: Extract
+[14514] \t- arguments: installer://Install Foxit Reader/1.1.0platformthemes.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14514] Done
+[14515] perform Install Foxit Reader operation: Extract
+[14515] \t- arguments: installer://Install Foxit Reader/1.1.0platformthemes.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14517] Done
+[14517] backup Install Foxit Reader operation: Extract
+[14517] \t- arguments: installer://Install Foxit Reader/1.1.0printsupport.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14517] Done
+[14517] perform Install Foxit Reader operation: Extract
+[14517] \t- arguments: installer://Install Foxit Reader/1.1.0printsupport.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14535] Done
+[14535] backup Install Foxit Reader operation: Extract
+[14536] \t- arguments: installer://Install Foxit Reader/1.1.0resource.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14536] Done
+[14536] perform Install Foxit Reader operation: Extract
+[14536] \t- arguments: installer://Install Foxit Reader/1.1.0resource.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14538] Done
+[14538] backup Install Foxit Reader operation: Extract
+[14538] \t- arguments: installer://Install Foxit Reader/1.1.0rmssdk.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14538] Done
+[14538] perform Install Foxit Reader operation: Extract
+[14538] \t- arguments: installer://Install Foxit Reader/1.1.0rmssdk.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14574] Done
+[14574] backup Install Foxit Reader operation: Extract
+[14574] \t- arguments: installer://Install Foxit Reader/1.1.0run.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14574] Done
+[14574] perform Install Foxit Reader operation: Extract
+[14574] \t- arguments: installer://Install Foxit Reader/1.1.0run.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14574] Done
+[14574] backup Install Foxit Reader operation: Extract
+[14574] \t- arguments: installer://Install Foxit Reader/1.1.0sensors.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14574] Done
+[14574] perform Install Foxit Reader operation: Extract
+[14574] \t- arguments: installer://Install Foxit Reader/1.1.0sensors.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14576] Done
+[14576] backup Install Foxit Reader operation: Extract
+[14576] \t- arguments: installer://Install Foxit Reader/1.1.0sqldrivers.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14576] Done
+[14576] perform Install Foxit Reader operation: Extract
+[14576] \t- arguments: installer://Install Foxit Reader/1.1.0sqldrivers.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14596] Done
+[14596] backup Install Foxit Reader operation: Extract
+[14596] \t- arguments: installer://Install Foxit Reader/1.1.0stamps.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14596] Done
+[14596] perform Install Foxit Reader operation: Extract
+[14596] \t- arguments: installer://Install Foxit Reader/1.1.0stamps.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14680] Done
+[14680] backup Install Foxit Reader operation: Extract
+[14680] \t- arguments: installer://Install Foxit Reader/1.1.0welcome.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14680] Done
+[14680] perform Install Foxit Reader operation: Extract
+[14680] \t- arguments: installer://Install Foxit Reader/1.1.0welcome.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14688] Done
+[14688] backup Install Foxit Reader operation: Extract
+[14688] \t- arguments: installer://Install Foxit Reader/1.1.0Wrappers.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14688] Done
+[14688] perform Install Foxit Reader operation: Extract
+[14688] \t- arguments: installer://Install Foxit Reader/1.1.0Wrappers.7z, /home/vigo/opt/foxitsoftware/foxitreader
+[14692] Done
+[14692] backup Install Foxit Reader operation: Execute
+[14692] \t- arguments: /home/vigo/opt/foxitsoftware/foxitreader/ldlibrarypath.sh, UNDOEXECUTE
+[14692] Done
+[14692] perform Install Foxit Reader operation: Execute
+[14692] \t- arguments: /home/vigo/opt/foxitsoftware/foxitreader/ldlibrarypath.sh, UNDOEXECUTE
+[14693] /home/vigo/opt/foxitsoftware/foxitreader/ldlibrarypath.sh" started, arguments: "
+[14801] Done
+[14801] backup Install Foxit Reader operation: Execute
+[14801] \t- arguments: /home/vigo/opt/foxitsoftware/foxitreader/postinst, configure, /home/vigo/opt/foxitsoftware/foxitreader
+[14801] Done
+[14802] perform Install Foxit Reader operation: Execute
+[14802] \t- arguments: /home/vigo/opt/foxitsoftware/foxitreader/postinst, configure, /home/vigo/opt/foxitsoftware/foxitreader
+[14802] /home/vigo/opt/foxitsoftware/foxitreader/postinst" started, arguments: "configure /home/vigo/opt/foxitsoftware/foxitreader
+[15717] Done
+[15717] backup Install Foxit Reader operation: Execute
+[15717] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/ldlibrarypath.sh, UNDOEXECUTE
+[15717] Done
+[15717] perform Install Foxit Reader operation: Execute
+[15717] \t- arguments: rm, -rf, /home/vigo/opt/foxitsoftware/foxitreader/ldlibrarypath.sh, UNDOEXECUTE
+[15718] rm" started, arguments: "-rf /home/vigo/opt/foxitsoftware/foxitreader/ldlibrarypath.sh
+[15719] Done
+[15725] Writing maintenance tool: "/home/vigo/opt/foxitsoftware/foxitreader/maintenancetool.new"
+[15784] Wrote permissions for maintenance tool.
+[15792] Maintenance tool restart: false.
+[15793] SHOW FINISHED PAGE
