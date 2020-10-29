@@ -299,6 +299,12 @@ python2-dbus
 python2-gobject
 python2-gobject2
 ibus-unikey
+qt5-translations
+firefox-i18n-en-us
+gimp-help-en
+hunspell-en_US
+hyphen-en
+vim-spell-en
 libreoffice-still-vi
 firefox-i18n-vi
 thunderbird-i18n-vi
