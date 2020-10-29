@@ -1,0 +1,43 @@
+%NAME%
+sublime-text
+
+%VERSION%
+3211-1
+
+%DESC%
+Sublime Text is a sophisticated text editor for code, markup and prose
+
+%URL%
+https://www.sublimetext.com
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1569891648
+
+%INSTALLDATE%
+1603880800
+
+%PACKAGER%
+Sublime HQ Packager
+
+%SIZE%
+34849235
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gtk3
+
+%OPTDEPENDS%
+gksu: sudo-save support
+
+%CONFLICTS%
+sublime-text-dev
+sublime-text-nightly
+
