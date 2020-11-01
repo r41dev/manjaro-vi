@@ -5,30 +5,29 @@
 #  LIVEOS=1
 #  exit
 #fi
-
 #if [[ -f ./.config/autostart/cap-nhat.desktop ]]; then
 #  mv ./.config/autostart/cap-nhat.desktop ./Desktop/cap-nhat.desktop
 #fi
-
-MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
+#MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
 #cd $(dirname "$BASH_SOURCE")
 #if [[ ! -d /usr/share/locale/vi ]]; then
 #  echo "Tải bản ngôn ngữ tiếng Việt để cài đặt ..."
 #  if [[ -f "$(pwd)/manjaro-vi.tar.gz" ]]; then
 #    mv "$(pwd)/manjaro-vi.tar.gz" /tmp/manjaro-vi.tar.gz
 # else
-    curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
 #  fi
 #  temp=$(mktemp -d)
+#  chown root:root * -Rf
+#fi
+###########################################
+MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
 pacman-mirrors --country Hong_Kong
 pacman -Suy
-  cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz
-#  chown root:root * -Rf
-  rm -rf /usr/share/locale/vi
-  cp -av /tmp/usr /
-  rm -rf /tmp/manjaro-vi.tar.gz /tmp/usr
-#fi
-
+curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
+cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz
+  cp -av /tmp/usr /tmp/etc /
+  rm -rf /tmp/manjaro-vi.tar.gz /tmp/usr /tmp/etc
+###########################################
 LOCALE_VI="vi_VN"
 
 locale -a | grep -q $LOCALE_VI || echo "Chưa tìm thấy $LOCALE_VI ..."
@@ -54,10 +53,7 @@ EOF
 
 localectl set-locale LANG="$LOCALE_VI.UTF-8"
 clear
-echo "Cập nhật ngôn ngữ tiếng Việt ... xong"
-
-#rm -rf ~/.config/autostart/cap-nhat.desktop
-
+echo "Cập nhật Vigo ... thành công"
 echo "Có thể phải khởi động lại máy tính ..."
 echo " "
 echo "Nhấn Enter để khởi động lại"

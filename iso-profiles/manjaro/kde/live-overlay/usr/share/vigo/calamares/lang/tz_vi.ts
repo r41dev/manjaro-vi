@@ -3,7 +3,7 @@
      SPDX-License-Identifier: CC0-1.0
 -->
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.1" language="vi">
 <context>
     <name>QObject</name>
     <message>
