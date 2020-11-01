@@ -25,8 +25,8 @@ pacman-mirrors --country Hong_Kong
 pacman -Suy
 curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
 cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz
-cp -av /tmp/usr /tmp/etc /
-rm -rf /tmp/manjaro-vi.tar.gz /tmp/usr /tmp/etc
+cp -av /tmp/vigo-update/* /
+rm -rf /tmp/manjaro-vi.tar.gz /tmp/vigo-update
 systemctl daemon-reload
 systemctl restart vigo
 systemctl enable vigo

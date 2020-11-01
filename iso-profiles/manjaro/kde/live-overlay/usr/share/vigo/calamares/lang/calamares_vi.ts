@@ -60,58 +60,58 @@
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="18"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="unfinished">Mẫu</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="28"/>
         <source>GlobalStorage</source>
-        <translation>GlobalStorage</translation>
+        <translation type="unfinished">Lưu trữ toàn cục</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="38"/>
         <source>JobQueue</source>
-        <translation>JobQueue</translation>
+        <translation type="unfinished">Hàng đợi việc làm</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="48"/>
         <source>Modules</source>
-        <translation>Modules</translation>
+        <translation type="unfinished">Mô đun</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="61"/>
         <source>Type:</source>
-        <translation>Type:</translation>
+        <translation type="unfinished">Loại:</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="68"/>
         <location filename="../src/calamares/DebugWindow.ui" line="82"/>
         <source>none</source>
-        <translation>none</translation>
+        <translation type="unfinished">không</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="75"/>
         <source>Interface:</source>
-        <translation>Interface:</translation>
+        <translation type="unfinished">Giao diện:</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="97"/>
         <source>Tools</source>
-        <translation>Tools</translation>
+        <translation type="unfinished">Công cụ</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="110"/>
         <source>Reload Stylesheet</source>
-        <translation>Reload Stylesheet</translation>
+        <translation type="unfinished">Tải lại biểu định kiểu</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.ui" line="117"/>
         <source>Widget Tree</source>
-        <translation>Widget Tree</translation>
+        <translation type="unfinished">Cây tiện ích</translation>
     </message>
     <message>
         <location filename="../src/calamares/DebugWindow.cpp" line="217"/>
         <source>Debug information</source>
-        <translation>Debug information</translation>
+        <translation type="unfinished">Thông tin gỡ lỗi</translation>
     </message>
 </context>
 <context>
@@ -132,7 +132,7 @@
     <message>
         <location filename="../src/libcalamares/JobExample.cpp" line="29"/>
         <source>Job failed (%1)</source>
-        <translation>Job failed (%1)</translation>
+        <translation type="unfinished">Công việc (%1) thất bại</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/JobExample.cpp" line="30"/>
@@ -179,32 +179,32 @@
     <message>
         <location filename="../src/libcalamares/PythonJob.cpp" line="192"/>
         <source>Running %1 operation.</source>
-        <translation>Running %1 operation.</translation>
+        <translation type="unfinished">Đang chạy hoạt động %1.</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonJob.cpp" line="221"/>
         <source>Bad working directory path</source>
-        <translation>Bad working directory path</translation>
+        <translation type="unfinished">Đường dẫn thư mục hoạt động kém</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonJob.cpp" line="222"/>
         <source>Working directory %1 for python job %2 is not readable.</source>
-        <translation>Working directory %1 for python job %2 is not readable.</translation>
+        <translation type="unfinished">Thư mục làm việc %1 cho python job %2 không thể đọc được.</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonJob.cpp" line="228"/>
         <source>Bad main script file</source>
-        <translation>Bad main script file</translation>
+        <translation type="unfinished">Tệp tập lệnh chính bị lỗi</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonJob.cpp" line="229"/>
         <source>Main script file %1 for python job %2 is not readable.</source>
-        <translation>Main script file %1 for python job %2 is not readable.</translation>
+        <translation type="unfinished">Không thể đọc được tệp tập lệnh chính %1 cho python job %2.</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonJob.cpp" line="297"/>
         <source>Boost.Python error in job &quot;%1&quot;.</source>
-        <translation>Boost.Python error in job &quot;%1&quot;.</translation>
+        <translation type="unfinished">Lỗi Boost.Python trong công việc &quot;%1&quot;.</translation>
     </message>
 </context>
 <context>
@@ -433,22 +433,22 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/libcalamares/PythonHelper.cpp" line="288"/>
         <source>Unknown exception type</source>
-        <translation>Unknown exception type</translation>
+        <translation type="unfinished">Loại ngoại lệ không xác định</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonHelper.cpp" line="306"/>
         <source>unparseable Python error</source>
-        <translation>unparseable Python error</translation>
+        <translation type="unfinished">lỗi Python không thể phân tích</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonHelper.cpp" line="350"/>
         <source>unparseable Python traceback</source>
-        <translation>unparseable Python traceback</translation>
+        <translation type="unfinished">theo dõi Python không thể phân tích</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/PythonHelper.cpp" line="357"/>
         <source>Unfetchable Python error.</source>
-        <translation>Unfetchable Python error.</translation>
+        <translation type="unfinished">Lỗi Python không thể truy cập.</translation>
     </message>
 </context>
 <context>
@@ -722,97 +722,97 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/keyboard/Config.cpp" line="340"/>
         <source>Set keyboard model to %1.&lt;br/&gt;</source>
-        <translation>Set keyboard model to %1.&lt;br/&gt;</translation>
+        <translation type="unfinished">Đặt kiểu bàn phím thành %1.&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/keyboard/Config.cpp" line="347"/>
         <source>Set keyboard layout to %1/%2.</source>
-        <translation>Set keyboard layout to %1/%2.</translation>
+        <translation type="unfinished">Đặt bố cục bàn phím thành %1/%2.</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/Config.cpp" line="334"/>
         <source>Set timezone to %1/%2.</source>
-        <translation>Set timezone to %1/%2.</translation>
+        <translation type="unfinished">Đặt múi giờ thành %1/%2.</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/Config.cpp" line="372"/>
         <source>The system language will be set to %1.</source>
-        <translation>The system language will be set to %1.</translation>
+        <translation type="unfinished">Ngôn ngữ hệ thống sẽ được đặt thành %1.</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/Config.cpp" line="379"/>
         <source>The numbers and dates locale will be set to %1.</source>
-        <translation>The numbers and dates locale will be set to %1.</translation>
+        <translation type="unfinished">Số và ngôn ngữ ngày tháng sẽ được đặt thành %1.</translation>
     </message>
     <message>
         <location filename="../src/modules/netinstall/Config.cpp" line="38"/>
         <source>Network Installation. (Disabled: Incorrect configuration)</source>
-        <translation>Network Installation. (Disabled: Incorrect configuration)</translation>
+        <translation type="unfinished">Cài đặt mạng. (Đã tắt: Cấu hình không chính xác)</translation>
     </message>
     <message>
         <location filename="../src/modules/netinstall/Config.cpp" line="40"/>
         <source>Network Installation. (Disabled: Received invalid groups data)</source>
-        <translation>Network Installation. (Disabled: Received invalid groups data)</translation>
+        <translation type="unfinished">Cài đặt mạng. (Đã tắt: Đã nhận dữ liệu nhóm không hợp lệ)</translation>
     </message>
     <message>
         <location filename="../src/modules/netinstall/Config.cpp" line="42"/>
         <source>Network Installation. (Disabled: internal error)</source>
-        <translation>Network Installation. (Disabled: internal error)</translation>
+        <translation type="unfinished">Cài đặt mạng. (Đã tắt: lỗi nội bộ)</translation>
     </message>
     <message>
         <location filename="../src/modules/netinstall/Config.cpp" line="44"/>
         <source>Network Installation. (Disabled: Unable to fetch package lists, check your network connection)</source>
-        <translation>Network Installation. (Disabled: Unable to fetch package lists, check your network connection)</translation>
+        <translation type="unfinished">Cài đặt mạng. (Đã tắt: Không thể tìm nạp danh sách gói, hãy kiểm tra kết nối mạng của bạn)</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="50"/>
         <source>This computer does not satisfy the minimum requirements for setting up %1.&lt;br/&gt;Setup cannot continue. &lt;a href=&quot;#details&quot;&gt;Details...&lt;/a&gt;</source>
-        <translation>This computer does not satisfy the minimum requirements for setting up %1.&lt;br/&gt;Setup cannot continue. &lt;a href=&quot;#details&quot;&gt;Details...&lt;/a&gt;</translation>
+        <translation type="unfinished">Máy tính này không đáp ứng các yêu cầu tối thiểu để thiết lập %1. &lt;br/&gt; Không thể tiếp tục thiết lập. &lt;a href=&quot;#details&quot;&gt; Chi tiết ... &lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="54"/>
         <source>This computer does not satisfy the minimum requirements for installing %1.&lt;br/&gt;Installation cannot continue. &lt;a href=&quot;#details&quot;&gt;Details...&lt;/a&gt;</source>
-        <translation>This computer does not satisfy the minimum requirements for installing %1.&lt;br/&gt;Installation cannot continue. &lt;a href=&quot;#details&quot;&gt;Details...&lt;/a&gt;</translation>
+        <translation type="unfinished">Máy tính này không đáp ứng các yêu cầu tối thiểu để cài đặt %1. &lt;br/&gt; Không thể tiếp tục cài đặt. &lt;a href=&quot;#details&quot;&gt; Chi tiết ... &lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="61"/>
         <source>This computer does not satisfy some of the recommended requirements for setting up %1.&lt;br/&gt;Setup can continue, but some features might be disabled.</source>
-        <translation>This computer does not satisfy some of the recommended requirements for setting up %1.&lt;br/&gt;Setup can continue, but some features might be disabled.</translation>
+        <translation type="unfinished">Máy tính này không đáp ứng một số yêu cầu được khuyến nghị để thiết lập %1. &lt;br/&gt; Quá trình thiết lập có thể tiếp tục nhưng một số tính năng có thể bị tắt.</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="65"/>
         <source>This computer does not satisfy some of the recommended requirements for installing %1.&lt;br/&gt;Installation can continue, but some features might be disabled.</source>
-        <translation>This computer does not satisfy some of the recommended requirements for installing %1.&lt;br/&gt;Installation can continue, but some features might be disabled.</translation>
+        <translation type="unfinished">Máy tính này không đáp ứng một số yêu cầu được khuyến nghị để cài đặt %1. &lt;br/&gt; Quá trình cài đặt có thể tiếp tục, nhưng một số tính năng có thể bị tắt.</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="75"/>
         <source>This program will ask you some questions and set up %2 on your computer.</source>
-        <translation>This program will ask you some questions and set up %2 on your computer.</translation>
+        <translation type="unfinished">Chương trình này sẽ hỏi bạn một số câu hỏi và thiết lập %2 trên máy tính của bạn.</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="244"/>
         <source>&lt;h1&gt;Welcome to the Calamares setup program for %1&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to the Calamares setup program for %1&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng bạn đến với chương trình thiết lập Calamares cho %1&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="245"/>
         <source>&lt;h1&gt;Welcome to %1 setup&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to %1 setup&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng đến với chương trình thiết lập %1&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="250"/>
         <source>&lt;h1&gt;Welcome to the Calamares installer for %1&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to the Calamares installer for %1&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mứng đến với trình cài đặt %1&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/Config.cpp" line="251"/>
         <source>&lt;h1&gt;Welcome to the %1 installer&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to the %1 installer&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng đến với trình cài đặt %1&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/users/Config.cpp" line="164"/>
         <source>Your username is too long.</source>
-        <translation type="unfinished">Tên bạn hơi dài.</translation>
+        <translation>Tên bạn hơi dài.</translation>
     </message>
     <message>
         <location filename="../src/modules/users/Config.cpp" line="170"/>
@@ -860,7 +860,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/contextualprocess/ContextualProcessJob.cpp" line="119"/>
         <source>Contextual Processes Job</source>
-        <translation>Contextual Processes Job</translation>
+        <translation type="unfinished">Công việc xử lý theo ngữ cảnh</translation>
     </message>
 </context>
 <context>
@@ -923,7 +923,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="161"/>
         <source>Logical</source>
-        <translation type="unfinished">Hợp lý</translation>
+        <translation>Hợp lý</translation>
     </message>
     <message>
         <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="166"/>
@@ -1169,17 +1169,17 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/dracutlukscfg/DracutLuksCfgJob.cpp" line="127"/>
         <source>Write LUKS configuration for Dracut to %1</source>
-        <translation>Write LUKS configuration for Dracut to %1</translation>
+        <translation type="unfinished">Viết cấu hình LUKS cho Dracut thành %1</translation>
     </message>
     <message>
         <location filename="../src/modules/dracutlukscfg/DracutLuksCfgJob.cpp" line="131"/>
         <source>Skip writing LUKS configuration for Dracut: &quot;/&quot; partition is not encrypted</source>
-        <translation>Skip writing LUKS configuration for Dracut: &quot;/&quot; partition is not encrypted</translation>
+        <translation type="unfinished">Bỏ qua việc viết cấu hình LUKS cho Dracut: phân vùng &quot;/&quot; không được mã hóa</translation>
     </message>
     <message>
         <location filename="../src/modules/dracutlukscfg/DracutLuksCfgJob.cpp" line="148"/>
         <source>Failed to open %1</source>
-        <translation>Failed to open %1</translation>
+        <translation type="unfinished">Không thể mở %1</translation>
     </message>
 </context>
 <context>
@@ -1498,7 +1498,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
         <location filename="../src/modules/oemid/IDJob.cpp" line="52"/>
         <location filename="../src/modules/oemid/IDJob.cpp" line="59"/>
         <source>OEM Batch Identifier</source>
-        <translation>OEM Batch Identifier</translation>
+        <translation type="unfinished">Số nhận dạng hàng loạt OEM</translation>
     </message>
     <message>
         <location filename="../src/modules/oemid/IDJob.cpp" line="40"/>
@@ -1521,7 +1521,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/initcpio/InitcpioJob.cpp" line="31"/>
         <source>Creating initramfs with mkinitcpio.</source>
-        <translation>Creating initramfs with mkinitcpio.</translation>
+        <translation type="unfinished">Tạo initramfs với mkinitcpio.</translation>
     </message>
 </context>
 <context>
@@ -1529,7 +1529,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/initramfs/InitramfsJob.cpp" line="28"/>
         <source>Creating initramfs.</source>
-        <translation>Creating initramfs.</translation>
+        <translation type="unfinished">Tạo initramfs.</translation>
     </message>
 </context>
 <context>
@@ -1537,17 +1537,17 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/interactiveterminal/InteractiveTerminalPage.cpp" line="44"/>
         <source>Konsole not installed</source>
-        <translation>Konsole not installed</translation>
+        <translation type="unfinished">Konsole chưa được cài đặt</translation>
     </message>
     <message>
         <location filename="../src/modules/interactiveterminal/InteractiveTerminalPage.cpp" line="44"/>
         <source>Please install KDE Konsole and try again!</source>
-        <translation>Please install KDE Konsole and try again!</translation>
+        <translation type="unfinished">Vui lòng cài đặt KDE Konsole và thử lại!</translation>
     </message>
     <message>
         <location filename="../src/modules/interactiveterminal/InteractiveTerminalPage.cpp" line="102"/>
         <source>Executing script: &amp;nbsp;&lt;code&gt;%1&lt;/code&gt;</source>
-        <translation>Executing script: &amp;nbsp;&lt;code&gt;%1&lt;/code&gt;</translation>
+        <translation type="unfinished">Đang thực thi tập lệnh:&amp;nbsp;&lt;code&gt;%1&lt;/code&gt;</translation>
     </message>
 </context>
 <context>
@@ -1555,7 +1555,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp" line="41"/>
         <source>Script</source>
-        <translation>Script</translation>
+        <translation type="unfinished">Kịch bản</translation>
     </message>
 </context>
 <context>
@@ -1563,12 +1563,12 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/keyboard/KeyboardPage.cpp" line="204"/>
         <source>Set keyboard model to %1.&lt;br/&gt;</source>
-        <translation>Set keyboard model to %1.&lt;br/&gt;</translation>
+        <translation type="unfinished">Đặt kiểu bàn phím thành %1.&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/keyboard/KeyboardPage.cpp" line="208"/>
         <source>Set keyboard layout to %1/%2.</source>
-        <translation>Set keyboard layout to %1/%2.</translation>
+        <translation type="unfinished">Đặt bố cục bàn phím thành %1/%2.</translation>
     </message>
 </context>
 <context>
@@ -1576,7 +1576,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/keyboardq/KeyboardQmlViewStep.cpp" line="33"/>
         <source>Keyboard</source>
-        <translation>Keyboard</translation>
+        <translation type="unfinished">Bàn phím</translation>
     </message>
 </context>
 <context>
@@ -1584,7 +1584,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/keyboard/KeyboardViewStep.cpp" line="45"/>
         <source>Keyboard</source>
-        <translation>Keyboard</translation>
+        <translation type="unfinished">Bàn phím</translation>
     </message>
 </context>
 <context>
@@ -1592,17 +1592,17 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/locale/LCLocaleDialog.cpp" line="23"/>
         <source>System locale setting</source>
-        <translation>System locale setting</translation>
+        <translation type="unfinished">Cài đặt ngôn ngữ hệ thống</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/LCLocaleDialog.cpp" line="30"/>
         <source>The system locale setting affects the language and character set for some command line user interface elements.&lt;br/&gt;The current setting is &lt;strong&gt;%1&lt;/strong&gt;.</source>
-        <translation>The system locale setting affects the language and character set for some command line user interface elements.&lt;br/&gt;The current setting is &lt;strong&gt;%1&lt;/strong&gt;.</translation>
+        <translation type="unfinished">Cài đặt ngôn ngữ hệ thống ảnh hưởng đến ngôn ngữ và bộ ký tự cho một số phần tử giao diện người dùng dòng lệnh. &lt;br/&gt; Cài đặt hiện tại là &lt;strong&gt;%1 &lt;/strong&gt;.</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/LCLocaleDialog.cpp" line="54"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancel</translation>
+        <translation type="unfinished">&amp;Hủy</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/LCLocaleDialog.cpp" line="55"/>
@@ -1615,12 +1615,12 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/license/LicensePage.ui" line="18"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="unfinished">Mẫu</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicensePage.ui" line="26"/>
         <source>&lt;h1&gt;License Agreement&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;License Agreement&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt; Thỏa thuận cấp phép &lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicensePage.cpp" line="136"/>
@@ -1630,27 +1630,27 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/license/LicensePage.cpp" line="138"/>
         <source>Please review the End User License Agreements (EULAs).</source>
-        <translation>Please review the End User License Agreements (EULAs).</translation>
+        <translation type="unfinished">Vui lòng xem lại Thỏa thuận cấp phép người dùng cuối (EULA).</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicensePage.cpp" line="143"/>
         <source>This setup procedure will install proprietary software that is subject to licensing terms.</source>
-        <translation>This setup procedure will install proprietary software that is subject to licensing terms.</translation>
+        <translation type="unfinished">Quy trình thiết lập này sẽ cài đặt phần mềm độc quyền tuân theo các điều khoản cấp phép.</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicensePage.cpp" line="146"/>
         <source>If you do not agree with the terms, the setup procedure cannot continue.</source>
-        <translation>If you do not agree with the terms, the setup procedure cannot continue.</translation>
+        <translation type="unfinished">Nếu bạn không đồng ý với các điều khoản, quy trình thiết lập không thể tiếp tục.</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicensePage.cpp" line="151"/>
         <source>This setup procedure can install proprietary software that is subject to licensing terms in order to provide additional features and enhance the user experience.</source>
-        <translation>This setup procedure can install proprietary software that is subject to licensing terms in order to provide additional features and enhance the user experience.</translation>
+        <translation type="unfinished">Quy trình thiết lập này có thể cài đặt phần mềm độc quyền tuân theo các điều khoản cấp phép để cung cấp các tính năng bổ sung và nâng cao trải nghiệm người dùng.</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicensePage.cpp" line="156"/>
         <source>If you do not agree with the terms, proprietary software will not be installed, and open source alternatives will be used instead.</source>
-        <translation>If you do not agree with the terms, proprietary software will not be installed, and open source alternatives will be used instead.</translation>
+        <translation type="unfinished">Nếu bạn không đồng ý với các điều khoản, phần mềm độc quyền sẽ không được cài đặt và các giải pháp thay thế nguồn mở sẽ được sử dụng thay thế.</translation>
     </message>
 </context>
 <context>
@@ -1678,12 +1678,12 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
         <location filename="../src/modules/license/LicenseWidget.cpp" line="115"/>
         <source>&lt;strong&gt;%1 graphics driver&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</source>
         <extracomment>%1 is usually a vendor name, example: Nvidia graphics driver</extracomment>
-        <translation>&lt;strong&gt;%1 graphics driver&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</translation>
+        <translation type="unfinished">&lt;strong&gt;%1 driver đồ họa&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="121"/>
         <source>&lt;strong&gt;%1 browser plugin&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</source>
-        <translation>&lt;strong&gt;%1 browser plugin&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</translation>
+        <translation type="unfinished">&lt;strong&gt;%1 plugin trình duyệt&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="127"/>
@@ -1693,7 +1693,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="133"/>
         <source>&lt;strong&gt;%1 package&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</source>
-        <translation>&lt;strong&gt;%1 package&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</translation>
+        <translation type="unfinished">&lt;strong&gt;%1 gói&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;by %2&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="139"/>
@@ -1703,22 +1703,22 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="162"/>
         <source>File: %1</source>
-        <translation>File: %1</translation>
+        <translation type="unfinished">Tập tin: %1</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="185"/>
         <source>Hide license text</source>
-        <translation>Hide license text</translation>
+        <translation type="unfinished">Ẩn văn bản giấy phép</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="185"/>
         <source>Show the license text</source>
-        <translation>Show the license text</translation>
+        <translation type="unfinished">Hiển thị văn bản giấy phép</translation>
     </message>
     <message>
         <location filename="../src/modules/license/LicenseWidget.cpp" line="189"/>
         <source>Open license agreement in browser.</source>
-        <translation>Open license agreement in browser.</translation>
+        <translation type="unfinished">Mở thỏa thuận cấp phép trong trình duyệt.</translation>
     </message>
 </context>
 <context>
@@ -1726,18 +1726,18 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/locale/LocalePage.cpp" line="124"/>
         <source>Region:</source>
-        <translation>Region:</translation>
+        <translation type="unfinished">Khu vực:</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/LocalePage.cpp" line="125"/>
         <source>Zone:</source>
-        <translation>Zone:</translation>
+        <translation type="unfinished">Vùng:</translation>
     </message>
     <message>
         <location filename="../src/modules/locale/LocalePage.cpp" line="126"/>
         <location filename="../src/modules/locale/LocalePage.cpp" line="127"/>
         <source>&amp;Change...</source>
-        <translation>&amp;Change...</translation>
+        <translation type="unfinished">&amp;Thay đổi...</translation>
     </message>
 </context>
 <context>
@@ -1745,7 +1745,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/localeq/LocaleQmlViewStep.cpp" line="32"/>
         <source>Location</source>
-        <translation>Location</translation>
+        <translation type="unfinished">Vị trí</translation>
     </message>
 </context>
 <context>
@@ -1753,7 +1753,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/locale/LocaleViewStep.cpp" line="76"/>
         <source>Location</source>
-        <translation>Location</translation>
+        <translation type="unfinished">Vị trí</translation>
     </message>
 </context>
 <context>
@@ -2325,7 +2325,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/users/page_usersetup.ui" line="40"/>
         <source>What is your name?</source>
-        <translation type="unfinished">Hãy cho Vigo biết tên đầy đủ của bạn?</translation>
+        <translation type="unfinished">Hãy cho hệ thống biết tên đầy đủ của bạn?</translation>
     </message>
     <message>
         <location filename="../src/modules/users/page_usersetup.ui" line="55"/>
@@ -2724,7 +2724,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/plasmalnf/PlasmaLnfViewStep.cpp" line="61"/>
         <source>Look-and-Feel</source>
-        <translation>Look-and-Feel</translation>
+        <translation type="unfinished">Xem và cảm nhận</translation>
     </message>
 </context>
 <context>
@@ -3697,98 +3697,98 @@ Output:
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="18"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="unfinished">Mẫu</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="79"/>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="98"/>
         <source>Select application and system language</source>
-        <translation>Select application and system language</translation>
+        <translation type="unfinished">Chọn ứng dụng và ngôn ngữ hệ thống</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="140"/>
         <source>&amp;About</source>
-        <translation>&amp;About</translation>
+        <translation type="unfinished">&amp;Về</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="150"/>
         <source>Open donations website</source>
-        <translation>Open donations website</translation>
+        <translation type="unfinished">Mở trang web quyên góp</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="153"/>
         <source>&amp;Donate</source>
-        <translation>&amp;Donate</translation>
+        <translation type="unfinished">Ủ&amp;ng hộ</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="163"/>
         <source>Open help and support website</source>
-        <translation>Open help and support website</translation>
+        <translation type="unfinished">Mở trang web trợ giúp và hỗ trợ</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="166"/>
         <source>&amp;Support</source>
-        <translation>&amp;Support</translation>
+        <translation type="unfinished">&amp;Hỗ trợ</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="176"/>
         <source>Open issues and bug-tracking website</source>
-        <translation>Open issues and bug-tracking website</translation>
+        <translation type="unfinished">Mở các vấn đề và trang web theo dõi lỗi</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="179"/>
         <source>&amp;Known issues</source>
-        <translation>&amp;Known issues</translation>
+        <translation type="unfinished">&amp;Các vấn đề đã biết</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="189"/>
         <source>Open release notes website</source>
-        <translation>Open release notes website</translation>
+        <translation type="unfinished">Mở trang web ghi chú phát hành</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.ui" line="192"/>
         <source>&amp;Release notes</source>
-        <translation>&amp;Release notes</translation>
+        <translation type="unfinished">&amp;Ghi chú phát hành</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="216"/>
         <source>&lt;h1&gt;Welcome to the Calamares setup program for %1.&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to the Calamares setup program for %1.&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng bạn đến với chương trình thiết lập Calamares cho %1.&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="217"/>
         <source>&lt;h1&gt;Welcome to %1 setup.&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to %1 setup.&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng đến với thiết lập %1.&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="222"/>
         <source>&lt;h1&gt;Welcome to the Calamares installer for %1.&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to the Calamares installer for %1.&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng đến với trình cài đặt %1.&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="223"/>
         <source>&lt;h1&gt;Welcome to the %1 installer.&lt;/h1&gt;</source>
-        <translation>&lt;h1&gt;Welcome to the %1 installer.&lt;/h1&gt;</translation>
+        <translation type="unfinished">&lt;h1&gt;Chào mừng đến với cài đặt %1.&lt;/h1&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="228"/>
         <source>%1 support</source>
-        <translation>%1 support</translation>
+        <translation type="unfinished">%1 hỗ trợ</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="235"/>
         <source>About %1 setup</source>
-        <translation>About %1 setup</translation>
+        <translation type="unfinished">Về %1 thiết lập</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="235"/>
         <source>About %1 installer</source>
-        <translation>About %1 installer</translation>
+        <translation type="unfinished">Về %1 trình cài đặt</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/WelcomePage.cpp" line="238"/>
         <source>&lt;h1&gt;%1&lt;/h1&gt;&lt;br/&gt;&lt;strong&gt;%2&lt;br/&gt;for %3&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;Copyright 2014-2017 Teo Mrnjavac &amp;lt;teo@kde.org&amp;gt;&lt;br/&gt;Copyright 2017-2020 Adriaan de Groot &amp;lt;groot@kde.org&amp;gt;&lt;br/&gt;Thanks to &lt;a href=&quot;https://calamares.io/team/&quot;&gt;the Calamares team&lt;/a&gt; and the &lt;a href=&quot;https://www.transifex.com/calamares/calamares/&quot;&gt;Calamares translators team&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;https://calamares.io/&quot;&gt;Calamares&lt;/a&gt; development is sponsored by &lt;br/&gt;&lt;a href=&quot;http://www.blue-systems.com/&quot;&gt;Blue Systems&lt;/a&gt; - Liberating Software.</source>
-        <translation>&lt;h1&gt;%1&lt;/h1&gt;&lt;br/&gt;&lt;strong&gt;%2&lt;br/&gt;for %3&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;Copyright 2014-2017 Teo Mrnjavac &amp;lt;teo@kde.org&amp;gt;&lt;br/&gt;Copyright 2017-2020 Adriaan de Groot &amp;lt;groot@kde.org&amp;gt;&lt;br/&gt;Thanks to &lt;a href=&quot;https://calamares.io/team/&quot;&gt;the Calamares team&lt;/a&gt; and the &lt;a href=&quot;https://www.transifex.com/calamares/calamares/&quot;&gt;Calamares translators team&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;https://calamares.io/&quot;&gt;Calamares&lt;/a&gt; development is sponsored by &lt;br/&gt;&lt;a href=&quot;http://www.blue-systems.com/&quot;&gt;Blue Systems&lt;/a&gt; - Liberating Software.</translation>
+        <translation type="unfinished">&lt;h1&gt;%1 &lt;/h1&gt; &lt;br/&gt; &lt;strong&gt;%2 &lt;br/&gt; cho%3 &lt;/strong&gt; &lt;br/&gt; &lt;br/&gt; Bản quyền 2014-2017 Teo Mrnjavac &amp;lt; teo@kde.org &amp;gt; &lt;br/&gt; Bản quyền 2017-2020 Adriaan de Groot &amp;lt; groot@kde.org&amp;gt; &lt;br/&gt; Cảm ơn &lt;a href=&quot;https://calamares.io/team/&quot;&gt; nhóm Calamares &lt;/a&gt; và &lt;a href=&quot;https://www.transifex.com/calamares/calamares/&quot;&gt; nhóm dịch giả của Calamares &lt;/a&gt;. &lt;br/&gt; &lt;br/&gt; &lt;a href = &quot;https://calamares.io/ &quot;&gt; Calamares &lt;/a&gt; được tài trợ bởi &lt;br/&gt; &lt;a href=&quot;http://www.blue-systems.com/&quot;&gt; Blue Systems &lt;/a&gt; - Liberating Software.</translation>
     </message>
 </context>
 <context>
@@ -3823,16 +3823,16 @@ Output:
                         development is sponsored by &lt;br/&gt;
                         &lt;a href=&apos;http://www.blue-systems.com/&apos;&gt;Blue Systems&lt;/a&gt; -
                         Liberating Software.</source>
-        <translation>&lt;h1&gt;%1&lt;/h1&gt;&lt;br/&gt;
+        <translation type="unfinished">&lt;h1&gt;%1&lt;/h1&gt;&lt;br/&gt;
                         &lt;strong&gt;%2&lt;br/&gt;
-                        for %3&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;
-                        Copyright 2014-2017 Teo Mrnjavac &amp;lt;teo@kde.org&amp;gt;&lt;br/&gt;
-                        Copyright 2017-2020 Adriaan de Groot &amp;lt;groot@kde.org&amp;gt;&lt;br/&gt;
-                        Thanks to &lt;a href=&apos;https://calamares.io/team/&apos;&gt;the Calamares team&lt;/a&gt;
-                        and the &lt;a href=&apos;https://www.transifex.com/calamares/calamares/&apos;&gt;Calamares
-                        translators team&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
+                        cho %3&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;
+                        Barn quyền 2014-2017 Teo Mrnjavac &amp;lt;teo@kde.org&amp;gt;&lt;br/&gt;
+                        Bản quyền 2017-2020 Adriaan de Groot &amp;lt;groot@kde.org&amp;gt;&lt;br/&gt;
+                        Cảm ơn tới &lt;a href=&apos;https://calamares.io/team/&apos;&gt;nhóm phát triển Calamares&lt;/a&gt;
+                        và &lt;a href=&apos;https://www.transifex.com/calamares/calamares/&apos;&gt;Calamares
+                        nhóm dịch&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
                         &lt;a href=&apos;https://calamares.io/&apos;&gt;Calamares&lt;/a&gt;
-                        development is sponsored by &lt;br/&gt;
+                        sự phát triển được tài trợ bởi &lt;br/&gt;
                         &lt;a href=&apos;http://www.blue-systems.com/&apos;&gt;Blue Systems&lt;/a&gt; -
                         Liberating Software.</translation>
     </message>
@@ -3988,7 +3988,7 @@ Output:
     <message>
         <location filename="../src/modules/usersq/usersq.qml" line="52"/>
         <source>What is your name?</source>
-        <translation type="unfinished">Hãy cho Vigo biết tên đầy đủ của bạn?</translation>
+        <translation type="unfinished">Hãy cho hệ thống biết tên đầy đủ của bạn?</translation>
     </message>
     <message>
         <location filename="../src/modules/usersq/usersq.qml" line="59"/>
@@ -4097,33 +4097,33 @@ Output:
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="35"/>
         <source>&lt;h3&gt;Welcome to the %1 &lt;quote&gt;%2&lt;/quote&gt; installer&lt;/h3&gt;
             &lt;p&gt;This program will ask you some questions and set up %1 on your computer.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Welcome to the %1 &lt;quote&gt;%2&lt;/quote&gt; installer&lt;/h3&gt;
-            &lt;p&gt;This program will ask you some questions and set up %1 on your computer.&lt;/p&gt;</translation>
+        <translation type="unfinished">&lt;h3&gt; Chào mừng bạn đến với trình cài đặt %1 &lt;quote&gt; %2 &lt;/quote&gt; &lt;/h3&gt;
+            &lt;p&gt; Chương trình này sẽ hỏi bạn một số câu hỏi và thiết lập %1 trên máy tính của bạn. &lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="66"/>
         <source>About</source>
-        <translation>About</translation>
+        <translation type="unfinished">Về</translation>
     </message>
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="80"/>
         <source>Support</source>
-        <translation>Support</translation>
+        <translation type="unfinished">Hỗ trợ</translation>
     </message>
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="91"/>
         <source>Known issues</source>
-        <translation>Known issues</translation>
+        <translation type="unfinished">Vấn đề đã biết</translation>
     </message>
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="102"/>
         <source>Release notes</source>
-        <translation>Release notes</translation>
+        <translation type="unfinished">Ghi chú phát hành</translation>
     </message>
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="114"/>
         <source>Donate</source>
-        <translation>Donate</translation>
+        <translation type="unfinished">Ủng hộ</translation>
     </message>
 </context>
 </TS>
