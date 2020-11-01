@@ -44,7 +44,7 @@
     <message>
         <location filename="../src/modules/partition/core/BootLoaderModel.cpp" line="146"/>
         <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
+        <translation type="unfinished">%1 (%2)</translation>
     </message>
 </context>
 <context>
@@ -238,7 +238,6 @@
         <translatorcomment>Đang đợi %n mô-đun.</translatorcomment>
         <translation type="unfinished">
             <numerusform>Đang đợi %n mô-đun.</numerusform>
-            <numerusform>Đang đợi %n mô-đun.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -246,7 +245,6 @@
         <source>(%n second(s))</source>
         <translatorcomment>(%n giây(s))</translatorcomment>
         <translation type="unfinished">
-            <numerusform>(%n giây(s))</numerusform>
             <numerusform>(%n giây(s))</numerusform>
         </translation>
     </message>

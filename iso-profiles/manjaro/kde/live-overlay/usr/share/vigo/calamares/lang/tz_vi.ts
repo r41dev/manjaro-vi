@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- SPDX-FileCopyrightText: no
-     SPDX-License-Identifier: CC0-1.0
--->
 <!DOCTYPE TS>
 <TS version="2.1" language="vi">
 <context>
@@ -10,13 +7,13 @@
         <location filename="../src/libcalamares/locale/ZoneData_p.cxxtr" line="30"/>
         <source>Africa</source>
         <comment>tz_regions</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Châu phi</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/locale/ZoneData_p.cxxtr" line="31"/>
         <source>America</source>
         <comment>tz_regions</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mỹ</translation>
     </message>
     <message>
         <location filename="../src/libcalamares/locale/ZoneData_p.cxxtr" line="32"/>
