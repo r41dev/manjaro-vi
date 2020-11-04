@@ -1,0 +1,3 @@
+
+VIGOStore 1.0.0
+SoftcService 1.0.0

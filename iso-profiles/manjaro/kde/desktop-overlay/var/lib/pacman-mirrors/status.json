@@ -1,0 +1,1323 @@
+[
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Australia",
+        "last_sync": "01:40",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://manjaro.lucassymons.net/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Australia",
+        "last_sync": "08:10",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirror.aarnet.edu.au/pub/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Austria",
+        "last_sync": "02:10",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://mirror.inode.at/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Austria",
+        "last_sync": "00:10",
+        "protocols": [
+            "http",
+            "ftp"
+        ],
+        "url": "http://mirror.easyname.at/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Bangladesh",
+        "last_sync": "08:10",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://mirror.xeonbd.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Belarus",
+        "last_sync": "02:10",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://mirror.datacenter.by/pub/mirrors/manjaro/"
+    },
+    {
+        "branches": [
+            -1,
+            -1,
+            -1
+        ],
+        "country": "Belgium",
+        "last_sync": "54:17",
+        "protocols": [
+            "http",
+            "ftp"
+        ],
+        "url": "http://ftp.belnet.be/mirrors/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Belgium",
+        "last_sync": "02:47",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "http://mirror.futureweb.be/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Brazil",
+        "last_sync": "00:30",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://manjaro.c3sl.ufpr.br/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Brazil",
+        "last_sync": "08:10",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://linorg.usp.br/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Brazil",
+        "last_sync": "00:07",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://www.caco.ic.unicamp.br/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Bulgaria",
+        "last_sync": "02:40",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.netix.net/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Bulgaria",
+        "last_sync": "00:10",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://manjaro.ipacct.com/manjaro/"
+    },
+    {
+        "branches": [
+            0,
+            0,
+            0
+        ],
+        "country": "Canada",
+        "last_sync": "52:37",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.csclub.uwaterloo.ca/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Canada",
+        "last_sync": "00:40",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://osmirror.org/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Bulgaria",
+        "last_sync": "00:30",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://manjaro.telecoms.bg/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Chile",
+        "last_sync": "02:40",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://manjaro.dcc.uchile.cl/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Chile",
+        "last_sync": "00:17",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.ufro.cl/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Chile",
+        "last_sync": "00:07",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ],
+        "url": "https://mirror1.cl.netactuate.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "China",
+        "last_sync": "08:11",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirrors.huaweicloud.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "China",
+        "last_sync": "08:38",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.aliyun.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            0,
+            0
+        ],
+        "country": "China",
+        "last_sync": "20:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.ustc.edu.cn/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "China",
+        "last_sync": "08:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "China",
+        "last_sync": "08:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "China",
+        "last_sync": "02:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.sjtug.sjtu.edu.cn/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Costa_Rica",
+        "last_sync": "01:41",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.ucr.ac.cr/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Czech",
+        "last_sync": "02:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.dkm.cz/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Denmark",
+        "last_sync": "02:58",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.dotsrc.org/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Denmark",
+        "last_sync": "00:08",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://www.uex.dk/public/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "France",
+        "last_sync": "02:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.oldsql.cc/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "France",
+        "last_sync": "00:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://manjaro.mcofficer.me/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "France",
+        "last_sync": "00:21",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://manjaro.ynh.ovh/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "France",
+        "last_sync": "06:58",
+        "protocols": [
+            "ftp",
+            "http"
+        ],
+        "url": "http://ftp.free.org/mirrors/repo.manjaro.org/repos/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "France",
+        "last_sync": "00:11",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://kibo.remi.lu/"
+    },
+    {
+        "branches": [
+            -1,
+            -1,
+            -1
+        ],
+        "country": "France",
+        "last_sync": -1,
+        "protocols": [
+            "http"
+        ],
+        "url": "http://meauzoone.fr/mirror/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Georgia",
+        "last_sync": "08:11",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://manjaro.grena.ge/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Germany",
+        "last_sync": "00:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.alpix.eu/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Germany",
+        "last_sync": "00:18",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirror.atysleaks.org/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Germany",
+        "last_sync": "00:08",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirror.23media.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Germany",
+        "last_sync": "02:11",
+        "protocols": [
+            "ftp",
+            "https"
+        ],
+        "url": "https://ftp.halifax.rwth-aachen.de/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Germany",
+        "last_sync": "06:58",
+        "protocols": [
+            "ftp",
+            "http"
+        ],
+        "url": "http://ftp.tu-chemnitz.de/pub/linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Germany",
+        "last_sync": "00:11",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.netzspielplatz.de/manjaro/packages/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Germany",
+        "last_sync": "06:58",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.netcologne.de/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Germany",
+        "last_sync": "00:11",
+        "protocols": [
+            "http",
+            "https"
+        ],
+        "url": "https://manjaro.moson.eu/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Germany",
+        "last_sync": "00:11",
+        "protocols": [
+            "http",
+            "https"
+        ],
+        "url": "https://manjaro.moson.org/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Greece",
+        "last_sync": "02:28",
+        "protocols": [
+            "ftp",
+            "http",
+            "https"
+        ],
+        "url": "https://ftp.cc.uoc.gr/mirrors/linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Hong_Kong",
+        "last_sync": "03:08",
+        "protocols": [
+            "ftp",
+            "http"
+        ],
+        "url": "http://ftp.cuhk.edu.hk/pub/Linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Hungary",
+        "last_sync": "00:41",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://quantum-mirror.hu/mirrors/pub/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Indonesia",
+        "last_sync": "00:31",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirror.deace.id/manjaro/"
+    },
+    {
+        "branches": [
+            0,
+            0,
+            0
+        ],
+        "country": "Indonesia",
+        "last_sync": "777:11",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://kartolo.sby.datautama.net.id/manjaro/"
+    },
+    {
+        "branches": [
+            0,
+            0,
+            0
+        ],
+        "country": "India",
+        "last_sync": "32:12",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirrors.piconets.webwerks.in/manjaro-mirror/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Iran",
+        "last_sync": "14:12",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://repo.iut.ac.ir/repo/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Iceland",
+        "last_sync": "06:38",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ],
+        "url": "https://mirrors.opensource.is/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Italy",
+        "last_sync": "02:38",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://manjaro.mirror.garr.it/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Italy",
+        "last_sync": "02:38",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://ba.mirror.garr.it/mirrors/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Italy",
+        "last_sync": "02:38",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://ct.mirror.garr.it/mirrors/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Japan",
+        "last_sync": "14:12",
+        "protocols": [
+            "ftp",
+            "http"
+        ],
+        "url": "http://ftp.riken.jp/Linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Japan",
+        "last_sync": "03:08",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Kenya",
+        "last_sync": "02:12",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://manjaro.mirror.liquidtelecom.com/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Netherlands",
+        "last_sync": "00:29",
+        "protocols": [
+            "http",
+            "https"
+        ],
+        "url": "https://manjaro.mirrors.lavatech.top/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Netherlands",
+        "last_sync": "00:39",
+        "protocols": [
+            "ftp",
+            "https"
+        ],
+        "url": "https://ftp.nluug.nl/pub/os/Linux/distr/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Netherlands",
+        "last_sync": "08:12",
+        "protocols": [
+            "ftp",
+            "http"
+        ],
+        "url": "http://ftp.snt.utwente.nl/pub/linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Netherlands",
+        "last_sync": "00:39",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.koddos.net/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "New_Zealand",
+        "last_sync": "00:42",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://manjaro.mirrors.theom.nz/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Norway",
+        "last_sync": "08:39",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://mirror.terrahost.no/linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Pakistan",
+        "last_sync": "04:39",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://repo.inara.pk/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Philippines",
+        "last_sync": "03:09",
+        "protocols": [
+            "http",
+            "ftp"
+        ],
+        "url": "http://mirror.rise.ph/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Poland",
+        "last_sync": "00:19",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.tuchola-dc.pl/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Poland",
+        "last_sync": "02:12",
+        "protocols": [
+            "http",
+            "ftp"
+        ],
+        "url": "http://ftp.vectranet.pl/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Portugal",
+        "last_sync": "08:12",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://ftp.dei.uc.pt/pub/linux/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Russia",
+        "last_sync": "02:12",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.yandex.ru/mirrors/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Russia",
+        "last_sync": "00:09",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirror.truenetwork.ru/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Singapore",
+        "last_sync": "07:09",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://download.nus.edu.sg/mirror/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "South_Africa",
+        "last_sync": "01:09",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://mirror.is.co.za/mirrors/manjaro.org/"
+    },
+    {
+        "branches": [
+            0,
+            0,
+            0
+        ],
+        "country": "South_Africa",
+        "last_sync": "23:39",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://manjaro.mirror.ac.za/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "South_Korea",
+        "last_sync": "02:42",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.d-tl.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Spain",
+        "last_sync": "02:12",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://ftp.caliu.cat/pub/distribucions/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Sweden",
+        "last_sync": "00:32",
+        "protocols": [
+            "ftp",
+            "https"
+        ],
+        "url": "https://ftp.lysator.liu.se/pub/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Sweden",
+        "last_sync": "00:32",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.zetup.net/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Switzerland",
+        "last_sync": "02:12",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://manjaro.osmir.ch/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Switzerland",
+        "last_sync": "00:59",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirror.init7.net/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Taiwan",
+        "last_sync": "17:59",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://free.nchc.org.tw/manjaro/"
+    },
+    {
+        "branches": [
+            0,
+            0,
+            0
+        ],
+        "country": "Thailand",
+        "last_sync": "680:41",
+        "protocols": [
+            "https",
+            "http",
+            "ftp"
+        ],
+        "url": "https://mirror.kku.ac.th/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Turkey",
+        "last_sync": "02:12",
+        "protocols": [
+            "ftp",
+            "http"
+        ],
+        "url": "http://ftp.linux.org.tr/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "Ukraine",
+        "last_sync": "00:59",
+        "protocols": [
+            "http",
+            "ftp"
+        ],
+        "url": "http://mirrors.colocall.net/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Ukraine",
+        "last_sync": "01:23",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://fastmirror.pp.ua/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "United_Kingdom",
+        "last_sync": "01:30",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://www.mirrorservice.org/sites/repo.manjaro.org/repos/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "United_Kingdom",
+        "last_sync": "00:50",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://manjaro.mirrors.uk2.net/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "United_Kingdom",
+        "last_sync": "02:43",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://uk.mirrors.fossho.st/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "United_States",
+        "last_sync": "00:03",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://repo.ialab.dsu.edu/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "United_States",
+        "last_sync": "02:10",
+        "protocols": [
+            "http"
+        ],
+        "url": "http://distro.ibiblio.org/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "United_States",
+        "last_sync": "12:40",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirrors.ocf.berkeley.edu/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "United_States",
+        "last_sync": "00:40",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.math.princeton.edu/pub/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "United_States",
+        "last_sync": "13:30",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.clarkson.edu/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            1
+        ],
+        "country": "United_States",
+        "last_sync": "00:30",
+        "protocols": [
+            "https"
+        ],
+        "url": "https://mirror.dacentec.com/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "United_States",
+        "last_sync": "06:40",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://mirrors.gigenet.com/manjaro/"
+    },
+    {
+        "branches": [
+            0,
+            0,
+            0
+        ],
+        "country": "United_States",
+        "last_sync": "95:05",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://us.mirrors.fossho.st/manjaro/"
+    },
+    {
+        "branches": [
+            1,
+            1,
+            0
+        ],
+        "country": "Uruguay",
+        "last_sync": "01:30",
+        "protocols": [
+            "https",
+            "http"
+        ],
+        "url": "https://manjaro.repo.cure.edu.uy/"
+    }
+]

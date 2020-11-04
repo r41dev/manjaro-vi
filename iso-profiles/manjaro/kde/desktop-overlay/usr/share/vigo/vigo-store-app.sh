@@ -3,5 +3,5 @@
 systemctl daemon-reload
 systemctl start vigo
 systemctl enable vigo
-
-bash /usr/share/vigo/rm-yakuake
+sudo chmod 777 /usr/share/applications/mimeinfo.cache
+echo "x-scheme-handler/softc=VigoStore.desktop;" >> /usr/share/applications/mimeinfo.cache
