@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utilities;System;
+Comment[vi_VN]=autostartscript2
+Comment=autostartscript2
+Exec=sudo /usr/share/vigo/vigo-store-app.sh
+GenericName[vi_VN]=autostartscript2
+GenericName=autostartscript2
+GenericName[en]=Unikey
+InitialPreference=5
+MimeType=autostartscript2
+Name[vi_VN]=autostartscript2
+Name=autostartscript2
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0

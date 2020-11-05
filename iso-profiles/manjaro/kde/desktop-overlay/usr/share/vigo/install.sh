@@ -21,7 +21,7 @@
 #fi
 ###########################################
 MANJARO_VI_URL="https://github.com/r41dev/manjaro-vi/raw/master/manjaro-vi.tar.gz"
-pacman-mirrors --country Hong_Kong
+pacman-mirrors -c all
 pacman -Suy
 curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
 cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz

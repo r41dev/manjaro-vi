@@ -321,7 +321,6 @@ zsync
 gparted
 gimp
 #########
-#foxitreader
 #gstreamer0.10-base
 #gstreamer0.10
 openssl-1.0
@@ -356,3 +355,4 @@ snapd
 snapd-glib
 libffi
 lib32-libffi
+jre-openjdk

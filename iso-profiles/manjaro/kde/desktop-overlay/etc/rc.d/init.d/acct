@@ -1,0 +1,40 @@
+#!/bin/sh
+#
+# acct	This script takes care of starting and stopping process accounting.
+#
+#
+# chkconfig: - 05 95
+# description:	Accouting can provide a system administrator \
+#	with useful information about system usage -- connections, \
+#	programs executed, and utilization of system resources.
+
+# Do not load RH compatibility interface.
+WITHOUT_RC_COMPAT=1
+
+# Source function library.
+. /etc/init.d/functions
+
+LOCKFILE=/var/lock/subsys/acct
+RETVAL=0
+
+# See how we were called.
+case "$1" in
+	start|reload|restart)
+		acct-mklog pacct
+		action "Turning on process accounting:" accton /var/account/pacct
+		RETVAL=$?
+		[ $RETVAL -eq 0 ] && touch "$LOCKFILE"
+		;;
+	stop)
+		action "Turning off process accounting:" accton off
+		RETVAL=$?
+		[ $RETVAL -eq 0 ] && rm -f "$LOCKFILE"
+		;;
+	status|condrestart|condstop)
+		;;
+	*)
+		msg_usage "${0##*/} {start|stop}"
+		RETVAL=1
+esac
+
+exit $RETVAL

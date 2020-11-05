@@ -1,0 +1,25 @@
+/var/account/pacct {
+	prerotate
+		umask 077 && touch /var/account/pacct.tmp && /sbin/accton /var/account/pacct.tmp >/dev/null
+	endscript
+	rotate 8
+	compress
+	delaycompress
+	notifempty
+	missingok
+	nocreate
+	daily
+	postrotate
+		test -e /var/account/pacct || mv /var/account/pacct.tmp /var/account/pacct
+	endscript
+}
+
+/var/account/usracct {
+	notifempty
+	missingok
+}
+
+/var/account/savacct {
+	notifempty
+	missingok
+}

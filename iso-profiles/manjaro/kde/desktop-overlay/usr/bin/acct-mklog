@@ -1,0 +1,8 @@
+#!/bin/sh -eu
+
+umask 177
+cd /var/account
+
+for f; do
+	[ -e "$f" ] || touch -- "$f"
+done
