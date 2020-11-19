@@ -307,7 +307,7 @@ hunspell-en_US
 hyphen-en
 vim-spell-en
 libreoffice-fresh
-#libreoffice-fresh-vi
+libreoffice-fresh-vi
 firefox-i18n-vi
 thunderbird-i18n-vi
 libtool

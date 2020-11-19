@@ -14,3 +14,5 @@ systemctl start acct
 #pacman database
 cp /usr/share/vigo/community.db /usr/share/vigo/core.db /usr/share/vigo/extra.db /usr/share/vigo/multilib.db /var/lib/pacman/sync/
 
+#remove autostart for next boot times
+mkdir /tmp/tmp1
