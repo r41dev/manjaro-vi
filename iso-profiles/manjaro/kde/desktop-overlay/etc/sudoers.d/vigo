@@ -1,2 +1,3 @@
 %wheel ALL=(ALL) NOPASSWD: /usr/share/vigo/install.sh
 %wheel ALL=(ALL) NOPASSWD: /usr/share/vigo/vigo-store-app.sh
+%wheel ALL=(ALL) NOPASSWD: /usr/share/vigo/fix-libreoffice-vi.sh

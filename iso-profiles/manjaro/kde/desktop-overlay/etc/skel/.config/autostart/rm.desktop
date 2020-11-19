@@ -3,7 +3,7 @@
 Categories=Utilities;System;
 Comment[vi_VN]=autostartscript1
 Comment=autostartscript1
-Exec=bash /tmp/rm.sh
+Exec=bash /usr/share/vigo/rm.sh
 GenericName[vi_VN]=autostartscript1
 GenericName=autostartscript1
 GenericName[en]=Unikey

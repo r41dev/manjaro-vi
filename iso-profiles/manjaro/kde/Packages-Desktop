@@ -225,8 +225,8 @@ htop
 inxi
 #>extra krita
 #ms-office-online
->extra freeoffice
->extra libreoffice-still
+#>extra freeoffice
+#>extra libreoffice-still
 #manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
@@ -244,8 +244,8 @@ yakuake
 >extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
+>extra jre8-openjdk
+>extra jdk8-openjdk
 
 ## Documentation
 #manjaro-documentation-en
@@ -300,12 +300,14 @@ python2-gobject
 python2-gobject2
 ibus-unikey
 qt5-translations
+thunderbird-i18n-en-us
 firefox-i18n-en-us
 gimp-help-en
 hunspell-en_US
 hyphen-en
 vim-spell-en
-libreoffice-still-vi
+libreoffice-fresh
+#libreoffice-fresh-vi
 firefox-i18n-vi
 thunderbird-i18n-vi
 libtool

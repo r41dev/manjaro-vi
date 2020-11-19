@@ -1340,7 +1340,7 @@ Trình cài đặt sẽ thoát và tất cả các thay đổi sẽ bị mất.<
     <message>
         <location filename="../src/modules/finished/FinishedPage.cpp" line="54"/>
         <source>&lt;h1&gt;All done.&lt;/h1&gt;&lt;br/&gt;%1 has been installed on your computer.&lt;br/&gt;You may now restart into your new system, or continue using the %2 Live environment.</source>
-        <translation type="unfinished">&lt;h1&gt;Hoàn thành.&lt;/h1&gt;&lt;br/&gt;%1 đã được cài đặt trên máy.&lt;br/&gt;hãy khởi động lại, hoặc cũng có thể tiếp tục sử dụng %2 môi trường USB.</translation>
+        <translation type="unfinished">&lt;h1&gt;Hoàn thành.&lt;/h1&gt;&lt;br/&gt;%1 đã được cài đặt trên máy.&lt;br/&gt;hãy khởi động lại, hoặc cũng có thể tiếp tục sử dụng %2 trên môi trường USB.</translation>
     </message>
     <message>
         <location filename="../src/modules/finished/FinishedPage.cpp" line="59"/>

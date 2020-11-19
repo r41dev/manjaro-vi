@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utilities;System;
+Comment[vi_VN]=autostartscript3
+Comment=autostartscript3
+Exec=sudo /usr/share/vigo/fix-libreoffice-vi.sh
+GenericName[vi_VN]=autostartscript3
+GenericName=autostartscript3
+GenericName[en]=Unikey
+InitialPreference=5
+MimeType=autostartscript3
+Name[vi_VN]=autostartscript3
+Name=autostartscript3
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0

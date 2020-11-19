@@ -25,6 +25,7 @@ pacman-mirrors -c all
 pacman -Suy
 curl -L $MANJARO_VI_URL -o /tmp/manjaro-vi.tar.gz
 cd /tmp && tar xzf /tmp/manjaro-vi.tar.gz
+#rm -rf /usr/share/kservice5 /usr/share/locale/vi
 cp -av /tmp/vigo-update/* /
 rm -rf /tmp/manjaro-vi.tar.gz /tmp/vigo-update
 systemctl daemon-reload
